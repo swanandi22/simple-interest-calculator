@@ -1,0 +1,17 @@
+curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/1 | grep -E "head|label|ref|user|repo|full_name"
+
+    "label": "swanandi22:bug-fix-revert",
+    "ref": "bug-fix-revert",
+    "user": {
+      "login": "swanandi22",
+      "id": 12345678,
+      "type": "User"
+    },
+    "repo": {
+      "id": 87654321,
+      "name": "simple-interest-calculator",
+      "full_name": "swanandi22/simple-interest-calculator",
+      "owner": {
+        "login": "swanandi22"
+      }
+    }
